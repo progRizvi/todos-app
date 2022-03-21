@@ -16,6 +16,7 @@ const Todos = () => {
 				todo
 			})
 		);
+		setTodo("");
 		e.preventDefault();
 	};
 	return (
